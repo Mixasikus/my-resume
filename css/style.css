@@ -1,5 +1,5 @@
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background-color: #f5f7fa;
 }
 
@@ -167,7 +167,7 @@ body {
   width: 370px;
 }
 
-.Contact-section,
+.contact-section,
 .tech-skills-section,
 .soft-skills-section {
   margin: 50px 0 0 40px;
