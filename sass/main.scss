@@ -1,4 +1,15 @@
+//base //utils
+@import './utils/variables';
 @import './base/reset';
 @import './base/common';
-@import './utils/variables';
+
+//components
 @import './components/container';
+@import './components/section';
+@import './components/section-title';
+@import './components/sidebar-section';
+
+//layout
+@import './layout/about-me';
+@import './layout/my-projects';
+@import './layout/my-work';

@@ -1,0 +1,52 @@
+.my-work-experiense {
+  background-color: var(--primary-white-color);
+
+  &__position {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    margin: 0 0 10px 0;
+  }
+
+  &__period {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.25;
+    color: #a8a8a8;
+    margin: 0 0 10px 0;
+  }
+
+  &__company {
+    color: var(--secondary-title-color);
+  }
+
+  &__divider {
+    color: var(--title-text-color);
+  }
+
+  &__duties {
+    padding: 0 0 0 18px;
+  }
+
+  &__duty {
+    font-weight: 400;
+    color: var(--primary-text-color);
+  }
+}
+
+.my-work-one {
+  margin: 0 0 15px 0;
+}
+
+.my-work-two {
+  margin: 0 0 20px 0;
+}
+
+.my-work-three {
+  margin: 0 0 40px 0;
+}
+
+//education
+.my-education-in-university {
+  color: var(--secondary-title-color);
+}

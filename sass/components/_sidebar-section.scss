@@ -1,0 +1,58 @@
+.sidebar {
+  background-color: var(--background-color-sidebar);
+  width: 370px;
+  padding: 40px 0;
+}
+
+.sidebar-title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.23;
+  color: #f5f7fa;
+  margin-bottom: 10px;
+}
+
+// Contact
+.contact-section,
+.tech-skills,
+.soft-skills {
+  margin: 50px 0 0 40px;
+}
+
+.contacts-section-type {
+  font-weight: 700;
+  color: var(--primary-white-color);
+  margin-right: 7px;
+}
+
+.contacts-section-link {
+  font-weight: 400;
+  color: #8e949c;
+}
+
+// Tech skills
+.tech-skills-list {
+  padding: 0 0 0 17px;
+}
+
+.tech-skills-item {
+  color: var(--secondary-title-color);
+}
+
+.tech-skills-item-text {
+  color: var(--primary-white-color);
+}
+
+// Soft skills
+.soft-skills-list {
+  padding: 0 0 0 17px;
+}
+
+.soft-skills-item {
+  color: var(--secondary-title-color);
+}
+
+.soft-skills-item-text {
+  font-weight: 400;
+  color: var(--primary-white-color);
+}
