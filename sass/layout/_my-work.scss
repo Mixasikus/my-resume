@@ -5,7 +5,7 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 1.25;
-    margin: 0 0 10px 0;
+    margin-bottom: 10px;
   }
 
   &__period {
@@ -13,7 +13,7 @@
     font-size: 12px;
     line-height: 1.25;
     color: #a8a8a8;
-    margin: 0 0 10px 0;
+    margin-bottom: 10px;
   }
 
   &__company {
@@ -24,10 +24,6 @@
     color: var(--title-text-color);
   }
 
-  &__duties {
-    padding: 0 0 0 18px;
-  }
-
   &__duty {
     font-weight: 400;
     color: var(--primary-text-color);
@@ -35,18 +31,24 @@
 }
 
 .my-work-one {
-  margin: 0 0 15px 0;
+  margin-bottom: 20px;
 }
 
 .my-work-two {
-  margin: 0 0 20px 0;
+  margin-bottom: 20px;
 }
 
 .my-work-three {
-  margin: 0 0 40px 0;
+  margin-bottom: 40px;
 }
 
 //education
+.my-education-text {
+  margin-bottom: 10px;
+  line-height: 1.2;
+  font-weight: 700;
+}
 .my-education-in-university {
   color: var(--secondary-title-color);
+  margin-bottom: 10px;
 }

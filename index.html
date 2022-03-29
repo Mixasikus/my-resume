@@ -27,8 +27,8 @@
       <div class="section">
         <!-- About me section -->
         <section class="about-me">
+          <h3 class="about-me-profession">Front-end-developer</h2>
           <h1 class="about-me-name">Michael Rudenko</h1>
-          <h2 class="about-me-profession">Front-end-developer</h2>
           <p class="about-me-description">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
@@ -39,35 +39,47 @@
         <!-- My progects -->
         <section class="my-projects">
           <h3 class="section-title">Project</h3>
-          <ol class="my-projects-list">
-            <li class="my-projects-item">
-              <span class="my-projects-text">
-                <a href="https://hellenglish.goit.global/" class="my-projects-link"
+          <ol class="my-projects__list">
+            <li class="my-projects__item">
+              <span class="my-projects__text">
+                <a
+                  href="https://hellenglish.goit.global/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="my-projects__link link"
                   >https://hellenglish.goit.global/</a
                 >
                 .......
-                <span class="my-projects-brecket">[</span> HTML5, CSS3
-                <span class="my-projects-brecket">]</span>
+                <span class="my-projects__brecket">[</span> HTML5, CSS3
+                <span class="my-projects__brecket">]</span>
               </span>
             </li>
-            <li class="my-projects-item">
-              <span class="my-projects-text">
-                <a href="https://cryptohub.goit.global/" class="my-projects-link"
+            <li class="my-projects__item">
+              <span class="my-projects__text">
+                <a
+                  href="https://cryptohub.goit.global/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="my-projects__link link"
                   >https://cryptohub.goit.global/</a
                 >
                 .........
-                <span class="my-projects-brecket">[</span> JavaScript
-                <span class="my-projects-brecket">]</span>
+                <span class="my-projects__brecket">[</span> JavaScript
+                <span class="my-projects__brecket">]</span>
               </span>
             </li>
-            <li class="my-projects-item">
-              <span class="my-projects-text">
-                <a href="https://kidslike.goit.global/" class="my-projects-link"
+            <li class="my-projects__item">
+              <span class="my-projects__text">
+                <a
+                  href="https://kidslike.goit.global/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="my-projects__link link"
                   >https://kidslike.goit.global/</a
                 >
                 ................
-                <span class="my-projects-brecket">[</span> React.js, Node.js
-                <span class="my-projects-brecket">]</span>
+                <span class="my-projects__brecket">[</span> React.js, Node.js
+                <span class="my-projects__brecket">]</span>
               </span>
             </li>
           </ol>
@@ -82,11 +94,11 @@
             <h4 class="my-work-experiense__position">
               Front-End Developer <span class="my-work-experiense__company">Freelance</span>
             </h4>
-            <p class="my-work-experiense-position__period">
+            <p class="my-work-experiense__period">
               September 2019 - up to now<span class="my-work-experiense__divider"> | </span>Country
             </p>
 
-            <ul class="my-work-experiense__duties">
+            <ul class="my-work-experiense-list list">
               <li class="my-work-experiense__duty">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                 incididunt ut labore et dolore magna aliqua.
@@ -106,11 +118,11 @@
             <h4 class="my-work-experiense__position">
               Manager <span class="my-work-experiense__company">Roga & Kopyta New</span>
             </h4>
-            <p class="my-work-experiense-position__period">
+            <p class="my-work-experiense__period">
               March 2015 - October 2018<span class="my-work-experiense__divider"> | </span>Country
             </p>
 
-            <ul class="my-work-experiense__duties">
+            <ul class="my-work-experiense-list list">
               <li class="my-work-experiense__duty">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et
                 dolore magna aliqua.
@@ -125,11 +137,11 @@
             <h4 class="my-work-experiense__position">
               Manager <span class="my-work-experiense__company">Roga & Kopyta LLC</span>
             </h4>
-            <p class="my-work-experiense-position__period">
+            <p class="my-work-experiense__period">
               June 2014 - February 2015<span class="my-work-experiense__divider"> | </span>Country
             </p>
 
-            <ul class="my-work-experiense__duties">
+            <ul class="my-work-experiense-list list">
               <li class="my-work-experiense__duty">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </li>
@@ -141,13 +153,9 @@
           <!--My education -->
           <div class="my-education">
             <h2 class="section-title">Education</h2>
-            <h3>
-              <span class="my-education-in-university"
-                >National University of Radioelectronics</span
-              >
-            </h3>
-            <h4>Management</h4>
-            <h5 class="my-work-experiense-position__period">
+            <h3 class="my-education-in-university">National University of Radioelectronics</h3>
+            <h4 class="my-education-text">Management</h4>
+            <h5 class="my-work-experiense__period">
               September 2009 - June 2014 <span class="my-work-experiense__divider"> | </span>Country
             </h5>
           </div>
@@ -156,18 +164,18 @@
 
       <!--sidebar-->
       <aside class="sidebar">
-        <img src="img/my-foto.jpg" alt="my photo" width="370" height="354" />
+        <img src="img/my-foto.jpg" class="my-foto" alt="my photo" width="370" height="354" />
 
         <!-- contacts section -->
         <section class="contact-section">
           <h3 class="sidebar-title">Contacts</h3>
           <div>
             <span class="contacts-section-type">C:</span>
-            <a class="contacts-section-link" href="tel:+380939924052">+380939924052</a>
+            <a class="contacts-section-link link" href="tel:+380939924052">+380939924052</a>
           </div>
           <div>
             <span class="contacts-section-type">E:</span>
-            <a class="contacts-section-link" href="mailto:mixasiikus@gmail.com"
+            <a class="contacts-section-link link" href="mailto:mixasiikus@gmail.com"
               >mixasiikus@gmail.com</a
             >
           </div>
@@ -176,7 +184,7 @@
         <!-- tech skills  -->
         <section class="tech-skills">
           <h3 class="sidebar-title">Tech Skills</h3>
-          <ul class="tech-skills-list">
+          <ul class="tech-skills-list list">
             <li class="tech-skills-item"><span class="tech-skills-item-text">HTML5</span></li>
             <li class="tech-skills-item"><span class="tech-skills-item-text">CSS3</span></li>
             <li class="tech-skills-item"><span class="tech-skills-item-text">GIT</span></li>
@@ -190,7 +198,7 @@
         <!-- soft skills  -->
         <section class="soft-skills">
           <h3 class="sidebar-title">Soft Skills</h3>
-          <ul class="soft-skills-list">
+          <ul class="soft-skills-list list">
             <li class="soft-skills-item"><span class="soft-skills-item-text">Scrum</span></li>
             <li class="soft-skills-item"><span class="soft-skills-item-text">Agile</span></li>
             <li class="soft-skills-item"><span class="soft-skills-item-text">GTD</span></li>
