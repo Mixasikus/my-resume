@@ -17,6 +17,25 @@ img {
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: #f5f7fa;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+:root {
+  --primary-text-color: #595959;
+  --title-text-color: #000000;
+  --secondary-title-color: #fb6d3a;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --background-color-sidebar: #1e2939;
+}
+
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  max-width: 1200px;
+  background-color: var(--primary-white-color);
+  margin: 40px auto;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 /*# sourceMappingURL=main.css.map */
