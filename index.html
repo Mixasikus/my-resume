@@ -11,15 +11,23 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <!-- Main cotainer -->
-    <div class="main-container">
+    <div class="container">
       <!-- Main content section -->
-      <div class="main-content-section">
+      <div class="section">
         <!-- About me section -->
-        <div class="about-me-section">
+        <section class="about-me">
           <h1 class="about-me-name">Michael Rudenko</h1>
           <h2 class="about-me-profession">Front-end-developer</h2>
           <p class="about-me-description">
@@ -27,10 +35,10 @@
             incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
             Risus commodo viverra maecenas accumsan lacus vel facilisis.
           </p>
-        </div>
+        </section>
 
-        <!-- My progects section -->
-        <div class="my-projects-section">
+        <!-- My progects -->
+        <section class="my-projects">
           <h3 class="main-content-title">Project</h3>
           <ol class="my-projects-list">
             <li class="my-projects-item">
@@ -38,13 +46,10 @@
                 <a href="https://hellenglish.goit.global/" class="my-projects-link"
                   >https://hellenglish.goit.global/</a
                 >
-                .......</span
-              >
-              <span class="my-projects-brecket">[</span> HTML5, CSS3<span
-                class="my-projects-brecket"
-              >
-                ]</span
-              >
+                .......
+                <span class="my-projects-brecket">[</span> HTML5, CSS3
+                <span class="my-projects-brecket">]</span>
+              </span>
             </li>
             <li class="my-projects-item">
               <span class="my-projects-text">
@@ -67,14 +72,14 @@
               </span>
             </li>
           </ol>
-        </div>
+        </section>
 
-        <!--My work experiense section-->
-        <section class="my-work-experiense-section">
+        <!--My work-->
+        <section class="my-work-experiense">
           <h3 class="main-content-title">Work Experience</h3>
 
           <!-- Company 1 -->
-          <div class="my-work-experiense-company-block">
+          <div class="my-work-one">
             <h4 class="my-work-experiense-position">
               Front-End Developer <span class="my-work-experiense-company">Freelance</span>
             </h4>
@@ -98,7 +103,7 @@
           </div>
 
           <!-- Company 2 -->
-          <div class="my-work-experiense-company-two">
+          <div class="my-work-two">
             <h4 class="my-work-experiense-position">
               Manager <span class="my-work-experiense-company">Roga & Kopyta New</span>
             </h4>
@@ -117,7 +122,7 @@
           </div>
 
           <!-- Company 3 -->
-          <div class="my-work-experiense-company-three">
+          <div class="my-work-three">
             <h4 class="my-work-experiense-position">
               Manager <span class="my-work-experiense-company">Roga & Kopyta LLC</span>
             </h4>
@@ -134,8 +139,8 @@
             </ul>
           </div>
 
-          <!--My education section-->
-          <div class="my-education-section-block">
+          <!--My education -->
+          <div class="my-education">
             <h2 class="main-content-title">Education</h2>
             <h3>
               <span class="my-education-in-university"
@@ -150,9 +155,9 @@
         </section>
       </div>
 
-      <!--sidebar section-->
+      <!--sidebar-->
       <aside class="sidebar-section">
-        <img class="my-foto" src="img/photo.jpg" alt="my photo" />
+        <img src="img/my-foto.jpg" alt="my photo" width="370" height="354" />
 
         <!-- contacts section -->
         <section class="contact-section">
@@ -163,13 +168,13 @@
           </div>
           <div>
             <span class="contacts-section-type">E:</span>
-            <a class="contacts-section-link" href="mailto:android18mihka@gmail.com"
-              >android18mihka@gmail.com</a
+            <a class="contacts-section-link" href="mailto:mixasiikus@gmail.com"
+              >mixasiikus@gmail.com</a
             >
           </div>
         </section>
 
-        <!-- tech skills section -->
+        <!-- tech skills  -->
         <section class="tech-skills-section">
           <h3 class="sidebar-title">Tech Skills</h3>
           <ul class="tech-skills-list">
@@ -183,8 +188,8 @@
           </ul>
         </section>
 
-        <!-- soft skills section -->
-        <section class="soft-skills-section">
+        <!-- soft skills  -->
+        <section class="soft-skills">
           <h3 class="sidebar-title">Soft Skills</h3>
           <ul class="soft-skills-list">
             <li class="soft-skills-item"><span class="soft-skills-item-text">Scrum</span></li>
