@@ -33,7 +33,12 @@
 .contacts-section-link {
   font-weight: 400;
   color: #8e949c;
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
+
 
 // Tech skills
 .tech-skills-item {

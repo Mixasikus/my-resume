@@ -106,6 +106,10 @@ body {
   color: #8e949c;
 }
 
+.contacts-section-link:hover, .contacts-section-link:focus {
+  color: var(--accent-color);
+}
+
 .tech-skills-item {
   color: var(--secondary-title-color);
 }
